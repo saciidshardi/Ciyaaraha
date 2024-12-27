@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football Prediction</title>
+  <link rel="stylesheet" href="qurxinta.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Saadasha Kulanka Maanta</h1>
+
+    <!-- Voter Information -->
+    <div class="voter-info">
+      <input type="text" id="voter-name" placeholder="Magacaga oo sadaxan" />
+    </div>
+
+    <!-- Team Images and Goals Prediction -->
+    <div class="team-container">
+      <div class="team">
+        <h2>Nugaal</h2>
+        <img id="teamA-image" src="nugaal.webp" alt="Team A" /><br>
+        <input type="number" id="teamA-goals" min="0" placeholder="Goals" />
+      </div>
+      <div class="team">
+        <h2>Bari</h2>
+        <img id="teamB-image" src="bari.jpg" alt="Team B" /><br>
+        <input type="number" id="teamB-goals" min="0" placeholder="Goals" />
+      </div>
+    </div>
+
+    <!-- Submit Button -->
+    <button id="submit-btn">Riix halkaan</button>
+
+    <!-- Result Area -->
+    <div id="result"></div>
+
+    <!-- Waxaa Codeyay -->
+    <h3>Dadka Saadaaliya</h3>
+    <div id="voters-list">
+      <!-- Voters list will be displayed here -->
+    </div>
+
+    <!-- Total Score Display -->
+    <h3>Total Score</h3>
+    <div id="total-score">0</div>
+  </div>
+
+  <script src="biilow.js"></script>
+</body>
+</html>
